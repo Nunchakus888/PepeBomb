@@ -15,7 +15,9 @@ ij_formatter_tags_enabled = true
 ij_smart_tabs = false
 ij_visual_guides = 
 ij_wrap_on_typing = false
+word_wrap = off
 
 
-[astro]
-insert_final_newline = true
+
+[*.astro]
+word_wrap = off

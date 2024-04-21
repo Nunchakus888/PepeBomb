@@ -2,30 +2,19 @@
   box-sizing: border-box;
 }
 body {
-  font-size: 14px;
+  font-size: 16px;
+  font-family: 'Raleway';
 }
-.v1_764 {
-  width: 100%;
-  height: 4736px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
+
 .v1_765 {
-  width: 81px;
   height: 36px;
   background: url("../images/v1_765.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
-  position: absolute;
+  position: sticky;
   top: 51px;
-  left: 150px;
-  overflow: hidden;
 }
 .v1_766 {
   width: 46px;
@@ -168,7 +157,6 @@ body {
 }
 .v1_777 {
   width: 100%;
-  height: 4094px;
   background: url("../images/v1_777.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -202,7 +190,6 @@ body {
 }
 .v1_811 {
   width: 100%;
-  height: 658px;
   background: url("../images/v1_811.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -1595,22 +1582,12 @@ body {
   background-position: center center;
   background-size: cover;
   opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  overflow: hidden;
 }
-.v2_1145 {
-  width: 178px;
+.h-title {
   color: rgba(255,255,255,1);
-  position: absolute;
-  top: 26px;
-  left: 88px;
   font-family: Racing Sans One;
   font-weight: Regular;
   font-size: 36px;
-  opacity: 1;
   text-align: center;
 }
 .v1_933 {
@@ -1638,11 +1615,7 @@ body {
   text-align: left;
 }
 .v2_1147 {
-  width: 710px;
   color: rgba(255,255,255,1);
-  position: absolute;
-  top: 149px;
-  left: 150px;
   text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
   font-family: Raleway;
   font-weight: Bold;
@@ -1651,9 +1624,7 @@ body {
   text-align: left;
 }
 .v2_1148 {
-  width: 164px;
   color: rgba(255,255,255,1);
-  position: absolute;
   top: 246px;
   left: 150px;
   font-family: Raleway;
@@ -1681,11 +1652,6 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 132px;
-  left: 932px;
-  overflow: hidden;
 }
 .v5_1307 {
   width: 100%;

@@ -16,6 +16,9 @@ module.exports = {
       fontFamily: {
         bomb: ['Raleway'],
         roboto: ['Roboto'],
+      },
+      screens: {
+        '2xl': '1440px',
       }
     },
   },

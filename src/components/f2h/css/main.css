@@ -1,3 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .w_1440 {
+    @apply w-full mx-auto max-w-[1440px] px-36
+  }
+}
+
+
+
 body {
   font-size: 16px;
   font-family: 'Raleway';

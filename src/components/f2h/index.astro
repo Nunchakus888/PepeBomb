@@ -38,15 +38,15 @@ const {
     <!--header-->
 
     <!--content-->
-    <div class="cc cc-col xx pt-36" >
+    <div class="cc cc-col xx pt-36 sm:pt-24" >
       <!-- overview start -->
-      <div class="flex relative flex-col gap-20" >
+      <div class="relative cc-col" >
         <div class="flex justify-between w-full" >
-          <div class="flex flex-col flex-1 min-w-0" >
-            <div class="t1 text-nowrap sm:text-wrap" >{overview.header}</div >
+          <div class="f-c flex-1 min-w-0 sm:gap-6" >
 
-            <div class="w-full flex items-center sm:flex-col sm:mt-10" >
+            <div class="w-full flex justify-start sm:flex-col" >
               <div class="w-full flex flex-col gap-7" >
+                <div class="t1 text-nowrap sm:text-wrap" >{overview.header}</div >
                 <span class="text-white font-bold text-xl	whitespace-nowrap" >{overview.items[0].title}</span >
                 <span class="text-white text-pretty leading-8" >{overview.items[0].description}</span >
               </div >
@@ -65,7 +65,7 @@ const {
         </div >
 
 
-        <div class="w-full flex flex-col gap-8 relative px-14 sm:px-8 py-4" >
+        <div class="w-full flex flex-col gap-8 relative px-14 sm:px-4 sm:gap-6 py-4" >
           <svg width="100%" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg" class="sm:hidden md:hidden min-h-[610px] absolute left-0 top-0" preserveAspectRatio="none" >
             <path d="M0.5 0.5H1100C1121.82 0.5 1139.5 18.1848 1139.5 40V609.5H40C18.1847 609.5 0.5 591.815 0.5 570V0.5Z" fill="black" fill-opacity="0.6" stroke="white" ></path >
           </svg >
@@ -78,7 +78,7 @@ const {
             </span >
           </div >
 
-          <div class="flex justify-between gap-16 z-10 sm:flex-col" >
+          <div class="flex justify-between gap-16 z-10 sm:flex-col sm:gap-8" >
             <div class="flex-1" >
               <p class="text-2xl font-semibold text-left text-white" >01</p >
               <p class="text-2xl font-bold text-left text-white py-3" >Automated Trading</p >
@@ -118,13 +118,13 @@ const {
       <!-- mkt -->
       <div class="w-full mt-15 relative flex flex-col justify-center items-center" >
         <p class="text-center w-full t1" >Market Positioning and Strategy</p >
-        <span class="text-sm font-semibold text-center text-white text-wrap w-1/2 sm:w-2/3 mt-2 mb-10" >
+        <span class="text-sm font-semibold text-center text-white text-wrap w-1/2 sm:w-3/4 mt-2 mb-10" >
           PepeBomb targets a diversified and growing market, including cryptocurrency investors, pop culture enthusiasts, and digital art collectors. Market penetration is achieved through the following strategies
         </span >
 
         <div class="flex w-full justify-between gap-8 sm:flex-col sm:gap-4" >
 
-          <div class="flex-1 relative p-6 flex flex-col gap-1.5 font-roboto min-h-52" >
+          <div class="flex-1 relative p-6 sm:p-4 flex flex-col gap-1.5 font-roboto min-h-52" >
             <svg width="100%" height="100%" viewBox="0 0 359 194" fill="none" xmlns="http://www.w3.org/2000/svg" class="absolute top-0 left-0 -z-10" preserveAspectRatio="none" >
               <path d="M0.5 0.5H311C337.234 0.5 358.5 21.7665 358.5 48V193.5H48C21.7665 193.5 0.5 172.234 0.5 146V0.5Z" fill="black" fill-opacity="0.6" stroke="white" ></path >
             </svg >
@@ -146,7 +146,7 @@ const {
               </g > </svg >
           </div >
 
-          <div class="flex-1 relative p-6 flex flex-col gap-1.5 font-roboto min-h-52" >
+          <div class="flex-1 relative p-6 sm:p-4 flex flex-col gap-1.5 font-roboto min-h-52" >
             <svg width="100%" height="100%" viewBox="0 0 359 194" fill="none" xmlns="http://www.w3.org/2000/svg" class="absolute top-0 left-0 -z-10" preserveAspectRatio="none" ><path d="M0.5 0.5H311C337.234 0.5 358.5 21.7665 358.5 48V193.5H48C21.7665 193.5 0.5 172.234 0.5 146V0.5Z" fill="black" fill-opacity="0.6" stroke="white" ></path ></svg >
             <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11 absolute right-8 top-8 z-10" preserveAspectRatio="none" >
               <mask id="mask0_3_1200" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="44" height="44" >
@@ -165,7 +165,7 @@ const {
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H44V44H0V0Z" fill="white" ></path ></mask ></svg >
           </div >
 
-          <div class="flex-1 relative p-6 flex flex-col gap-1.5 font-roboto min-h-52" >
+          <div class="flex-1 relative p-6 sm:p-4 flex flex-col gap-1.5 font-roboto min-h-52" >
             <svg width="100%" height="100%" viewBox="0 0 359 194" fill="none" xmlns="http://www.w3.org/2000/svg" class="absolute top-0 left-0 -z-10" preserveAspectRatio="none" ><path d="M0.5 0.5H311C337.234 0.5 358.5 21.7665 358.5 48V193.5H48C21.7665 193.5 0.5 172.234 0.5 146V0.5Z" fill="black" fill-opacity="0.6" stroke="white" ></path ></svg >
             <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11 absolute right-8 top-8 z-10" preserveAspectRatio="none" >
               <mask id="mask0_3_1208" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="44" height="44" >
@@ -219,7 +219,7 @@ const {
 
         <div class="w-full relative mt-8" >
           <div class="bg-black opacity-60 border h-full absolute top-0 w-screen rounded-3xl -z-10" ></div >
-          <div class="w-full grid grid-cols-3 justify-between sm:grid-cols-1 gap-6 pl-16 pt-12" >
+          <div class="w-full grid grid-cols-3 justify-between sm:grid-cols-1 gap-6 sm:gap-4 pl-16 sm:pl-4 sm:pt-4 pt-12" >
             {
               fdp.items.map(item => (
                       <div class="f-c gap-6" >
@@ -240,9 +240,9 @@ const {
       <!-- fdp -->
 
       <!-- pas -->
-      <div class="w-full flex sm:f-c sm:flex-col-reverse sm:gap-8 items-center" >
+      <div class="w-full flex sm:f-c sm:flex-col-reverse gap-8 items-center" >
 
-        <div class="w-full relative f-c" >
+        <div class="relative f-c" >
           <div class="w-[414px] h-[549px]" >
             <img src="assets/images/rectangle-590.png" class="w-[414px] h-[414px] absolute left-[calc(126.5px-126.5px)] top-[calc(2862.5px-2731px)] object-cover" />
             <img src="assets/images/rectangle-591.png" class="w-[68.25px] h-[68.25px] absolute left-[calc(151.63px-126.5px)] top-[calc(2828.63px-2731px)] object-contain" />
@@ -298,7 +298,7 @@ const {
       <!-- pas -->
 
       <!-- technical foresight -->
-      <div class="relative w-full flex py-6 sm:px-6 gap-8 sm:f-c sm:justify-center" >
+      <div class="relative w-full flex py-6 sm:px-4 gap-8 sm:f-c sm:justify-center" >
         <!--<svg width="100%" height="445" viewBox="0 0 1140 445" fill="none" xmlns="http://www.w3.org/2000/svg" class="sm:hidden absolute left-0 top-0 -z-10" preserveAspectRatio="none" >
           <path d="M0.5 0.5H1100C1121.82 0.5 1139.5 18.1848 1139.5 40V405C1139.5 426.815 1121.82 444.5 1100 444.5H40C18.1847 444.5 0.5 426.815 0.5 405V0.5Z" fill="black" fill-opacity="0.6" stroke="white" ></path >
         </svg >-->

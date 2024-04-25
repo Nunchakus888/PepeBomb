@@ -3,36 +3,45 @@
 @tailwind utilities;
 
 @layer components {
-  .w_1440 {
-    @apply w-full mx-auto max-w-[1440px] px-36
+  .cc {
+    @apply max-w-[1440px] mx-auto w-full
   }
+
+  .cc-col {
+    @apply flex flex-col gap-20 sm:gap-10
+  }
+
+  .xx {
+    @apply sm:px-12 md:px-24 px-36
+  }
+
+  .t1 {
+    @apply text-[52px] md:text-[36px] sm:text-[30px] sm:text-wrap text-shadow-title font-bold text-white
+  }
+
+  .t2 {
+    @apply t1 text-[40px] md:text-[36px] sm:text-[28px]
+  }
+
+  .f-c {
+    @apply flex flex-col
+  }
+
+
+
 }
 
-
+/*
+@layer base {
+  .container {
+    @apply max-w-[1535px] xl:max-w-[1439px] lg:max-w-[1023px] md:max-w-[767px] sm:max-w-[639px];
+  }
+}*/
 
 body {
-  font-size: 16px;
   font-family: 'Raleway';
 }
 
-.v2_1146 {
-  width: 429px;
-  height: 429px;
-  background: url("/assets/images/v2_1146.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-
-.v1_809 {
-  width: 88px;
-  height: 88px;
-  background: url("/assets/images/v1_809.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-}
 .h-title {
   color: rgba(255,255,255,1);
   font-family: Racing Sans One;
@@ -40,14 +49,3 @@ body {
   font-size: 36px;
   text-align: center;
 }
-
-.v2_1147 {
-  color: rgba(255,255,255,1);
-  text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
-  font-family: Raleway;
-  font-weight: Bold;
-  font-size: 52px;
-  opacity: 1;
-  text-align: left;
-}
-

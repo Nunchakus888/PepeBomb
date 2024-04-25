@@ -1,3 +1,5 @@
+/** @type {import('tailwindcss').Config} */
+
 const plugin = require('tailwindcss/plugin')
 
 module.exports = {
@@ -18,11 +20,17 @@ module.exports = {
         roboto: ['Roboto'],
       },
       screens: {
-        '2xl': '1440px',
+        // desktop first
+        'lg': {'max': '1920px'},
+        'md': {'max': '1439px', min: '1024px'},
+        'sm': {'max': '1023px', min: '1px'},
+        // 'md': {'max': '1023px', min: '768px'},
+        // 'sm': {'max': '767px'},
       }
     },
   },
   plugins: [
+    require('tailwindcss-convert-px-to-rem'),
     require('@tailwindcss/typography'),
     plugin(function ({matchUtilities, theme}) {
       matchUtilities(

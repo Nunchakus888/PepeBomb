@@ -33,8 +33,11 @@ dependencies:
     specifier: ^6.1.0
     version: 6.1.0(postcss@8.4.38)
   tailwindcss:
-    specifier: ^3.3.5
+    specifier: ^3.4.3
     version: 3.4.3
+  tailwindcss-convert-px-to-rem:
+    specifier: ^1.0.4
+    version: 1.0.4
 
 devDependencies:
   '@tailwindcss/typography':
@@ -4276,6 +4279,15 @@ packages:
   /supports-preserve-symlinks-flag@1.0.0:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
+
+  /tailwindcss-convert-px-to-rem@1.0.4:
+    resolution: {integrity: sha512-2zGNvRS7FrnMDjYjPCUNAiRKJ1V/q30F83mgHYYsFwZ5AWj2hbtdWeJ3fkutYvDrfMFSTDr1Q/85o9zjiqv1sA==}
+    dependencies:
+      postcss: 8.4.38
+      tailwindcss: 3.4.3
+    transitivePeerDependencies:
+      - ts-node
+    dev: false
 
   /tailwindcss@3.4.3:
     resolution: {integrity: sha512-U7sxQk/n397Bmx4JHbJx/iSOOv5G+II3f1kpLpY2QeUv5DcPdcTsYLlusZfq1NthHS1c1cZoyFmmkex1rzke0A==}

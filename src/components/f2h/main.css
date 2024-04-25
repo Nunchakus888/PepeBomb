@@ -12,7 +12,7 @@
   }
 
   .xx {
-    @apply sm:px-12 md:px-24 px-36
+    @apply sm:px-4 md:px-20 px-36
   }
 
   .t1 {
@@ -30,13 +30,6 @@
 
 
 }
-
-/*
-@layer base {
-  .container {
-    @apply max-w-[1535px] xl:max-w-[1439px] lg:max-w-[1023px] md:max-w-[767px] sm:max-w-[639px];
-  }
-}*/
 
 body {
   font-family: 'Raleway';

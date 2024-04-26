@@ -1,13 +1,30 @@
-# Astro with Tailwind
+# PepeBomb
 
-```sh
-npm create astro@latest -- --template with-tailwindcss
-```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/with-tailwindcss)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/with-tailwindcss)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/with-tailwindcss/devcontainer.json)
+### production deployment
 
-Astro comes with [Tailwind](https://tailwindcss.com) support out of the box. This example showcases how to style your Astro project with Tailwind.
+1. deploy to your own server
+  ```bash
+  pnpm build
+  pnpm start
+  ```
 
-For complete setup instructions, please see our [Tailwind Integration Guide](https://docs.astro.build/en/guides/integrations-guide/tailwind).
+2. deploy to the third-party server, please refer to the [Astro-deploy](https://docs.astro.build/en/guides/deploy/) documentation.
+
+
+### development
+
+1. Install dependencies
+  ```bash
+  pnpm install
+  ```
+2. Run the development server
+  ```bash
+  pnpm dev
+  ```
+3. Open [http://localhost:4321](http://localhost:4321) with your browser to see the result.
+4. You can start editing the page by modifying `pages/index.astro`. The page auto-updates as you edit the file.
+5. You can also view the changes in real-time by running the following command in a separate terminal
+  ```bash
+  pnpm dev:preview
+  ```

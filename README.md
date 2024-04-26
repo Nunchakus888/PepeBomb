@@ -1,9 +1,15 @@
 # PepeBomb
 
+### Prerequisites
+
+* Node.js - v18.17.1 or v20.3.0 or higher. ( v19 is not supported.)
+* If you are not installed node.js, please refer to the [Node.js](https://nodejs.org/en/download/) documentation.
+* Node is installed with npm or yarn or pnpm in the terminal.
+
 
 ### production deployment
 
-1. deploy to your own server
+1. deploy to your own server, please use the following commands to build and start the server.
   ```bash
   pnpm build
   pnpm start
@@ -28,3 +34,6 @@
   ```bash
   pnpm dev:preview
   ```
+
+### more support
+* If you have any questions, please Telegram me: [cartesian233](https://web.telegram.org/k/#@cartesian233), or create an issue in the repository. I will reply to you as soon as possible.

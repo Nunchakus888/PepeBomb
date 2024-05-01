@@ -1,5 +1,9 @@
 # PepeBomb
 
+### Introduction
+Developed by Cartesian233
+
+
 ### Prerequisites
 
 * Node.js - v18.17.1 or v20.3.0 or higher. ( v19 is not supported.)
@@ -7,18 +11,20 @@
 * Node is installed with npm or yarn or pnpm in the terminal.
 
 
-### production deployment
+### Production deployment
 
-1. deploy to your own server, please use the following commands to build and start the server.
-  ```bash
+1. Deploy to your own server, please use the following commands to build and start the server.
+  
+```bash
   pnpm build
   pnpm start
   ```
+  
 
-2. deploy to the third-party server, please refer to the [Astro-deploy](https://docs.astro.build/en/guides/deploy/) documentation.
+2. Deploy to the third-party server, please refer to the [Astro-deploy](https://docs.astro.build/en/guides/deploy/) documentation.
 
 
-### development
+### Development
 
 1. Install dependencies
   ```bash
@@ -35,5 +41,5 @@
   pnpm dev:preview
   ```
 
-### more support
+### More support
 * If you have any questions, please Telegram me: [cartesian233](https://web.telegram.org/k/#@cartesian233), or create an issue in the repository. I will reply to you as soon as possible.
